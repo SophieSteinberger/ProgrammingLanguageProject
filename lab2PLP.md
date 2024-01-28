@@ -26,8 +26,11 @@ A code example of the data types (the accompanying code to this assignment) can 
 - `const` – variables declared with const cannot be redeclared or reassigned; it is used to create variables with unchangeable value.
 
 [https://www.w3schools.com/js/js_conventions.asp](https://www.w3schools.com/js/js_conventions.asp)
+
 [https://medium.com/@kjschelling/a-comprehensive-guide-to-naming-conventions-in-javascript-46a7518e4807](https://medium.com/@kjschelling/a-comprehensive-guide-to-naming-conventions-in-javascript-46a7518e4807)
+
 [https://www.w3schools.com/js/js_let.asp](https://www.w3schools.com/js/js_let.asp)
+
 [https://kesharvani.hashnode.dev/why-using-var-is-a-bad-practice-in-javascript](https://kesharvani.hashnode.dev/why-using-var-is-a-bad-practice-in-javascript)
 
 
@@ -71,6 +74,7 @@ When running such code in JavaScript, x would print as “56”, converting the 
 -	Arrays and Dates are special types of object.
 
 [w3schools - data types](https://www.w3schools.com/js/js_datatypes.asp)
+
 [w3schools - objects](https://www.w3schools.com/js/js_objects.asp)
 
 
