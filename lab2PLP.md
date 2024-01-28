@@ -51,18 +51,18 @@ When running such code in JavaScript, x would print as “56”, converting the 
 -	Use of datatypes is very loose in JavaScript and the comparative lack of data types requires a much lower level of specificity on the part of the person writing the code.
 -	A concept that I am still working on fully grasping is that in JavaScript all data types that are not of Object type are primitive types. Furthermore, all primitive types other than null and undefined have corresponding wrapper Objects that offer methods for the object; JavaScript automatically does the wrapping of the primitive values in the appropriate wrapper object when a property of the value is to be accessed.
 - The data types in JavaScript are:
-    	String - textual data
-    	Number - integers or floating point numbers
-    	Bigint - numbers with more than 15 digits
-    	Boolean - true or false
-    	Undefined - the value undefined, conceptually indicates the absence of a value. Used when:
+    - String - textual data
+    - Number - integers or floating point numbers
+    - Bigint - numbers with more than 15 digits
+    - Boolean - true or false
+    - Undefined - the value undefined, conceptually indicates the absence of a value. Used when:
         - return statement has no value to return
         - someone tries to access an object property that does not exist 
         - variables not yet assigned a value
         - when methods that involve getting or finding cannot find an element
-    	Null - indicates the absence of an object
-    	[Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) - "Symbol is a built-in object whose constructor returns a symbol primitive" that is guaranteed to be unique
-    	Object (non-primitive)
+    - Null - indicates the absence of an object
+    - [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) - "Symbol is a built-in object whose constructor returns a symbol primitive" that is guaranteed to be unique
+    - Object (non-primitive)
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
