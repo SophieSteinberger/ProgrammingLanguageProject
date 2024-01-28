@@ -3,7 +3,7 @@
 For week 2 of this project the focus is data types and variables. While JavaScript does not use explicit declarations of data type when declaring variables, being aware of the type of the variable being declared is still important for how it can and will be used.
 A code example of the data types (the accompanying code to this assignment) can be found [here if you have node.js or other runtime environment](plpLab2.js) or [here if you will be running it through a browser](plpLab2.html).
 
-## **1.	What are the naming requirements for variables in your language? What about naming conventions? Are they enforced by the compiler/interpreter, or are they just standards in the community?**
+## 1.	What are the naming requirements for variables in your language? What about naming conventions? Are they enforced by the compiler/interpreter, or are they just standards in the community?
 ### The enforced naming requirements are:
 - Variable names (identifiers) must be unique
 - They are case sensitive
@@ -31,21 +31,21 @@ A code example of the data types (the accompanying code to this assignment) can 
 [https://kesharvani.hashnode.dev/why-using-var-is-a-bad-practice-in-javascript](https://kesharvani.hashnode.dev/why-using-var-is-a-bad-practice-in-javascript)
 
 
-## **2.	Is your language statically or dynamically typed?**
+## 2.	Is your language statically or dynamically typed?
 JavaScript is dynamically typed:
 - Variables’ data types are determined by the values they hold at runtime (you do not have to specify/declare a variable’s datatype when creating the variable)
 - Variables’ data types can change throughout the program when they are assigned different values.
 
-## **3.	Strongly typed or weakly typed?**
+## 3.	Strongly typed or weakly typed?
 JavaScript is weakly typed:
 - JavaScript recognizes different data types but handles them more loosely than some other languages; variables’ data types are not explicitly specified and can be converted at runtime
 
-## **4.	If you put this line (or something similar) in a program and try to print x, what does it do? If it doesn't compile, why? Is there something you can do to make it compile? x = "5" + 6 **
+## 4.	If you put this line (or something similar) in a program and try to print x, what does it do? If it doesn't compile, why? Is there something you can do to make it compile? x = "5" + 6 
 When running such code in JavaScript, x would print as “56”, converting the integer 6 into a string (“6”) and then concatenating the two as two strings. When adding a string and a number the JavaScript interpreter treats the number like a string and concatenates the two values and resulting in a string.
 - JavaScript evaluates expressions from left to right, so if there are multiple numbers with arithmetic operators before a + and a string, it will evaluate the numbers as numbers until the string is reached.
   - Example: `2 + 2 + 2 + “Hello”`    would evaluate to:   6Hello
 
-## **5.	Describe the limitations (or lack thereof) of your programming language as they relate to the coding portion of the assignment (adding ints and floats, storing different types in lists, converting between data types). Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of? **
+## 5.	Describe the limitations (or lack thereof) of your programming language as they relate to the coding portion of the assignment (adding ints and floats, storing different types in lists, converting between data types). Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of? 
 
 -	Not having to declare data types for variables can be freeing in its convenience but also can cause hard to find errors due to automatic conversions; theses errors can cause the code to fail or, when the code does not fail, the errors can lead to code producing unwanted/ unintended behavior and/or incorrect information. As noted in the answer to number 4, there is automatic conversion to string if the data types of terms in a + operation do not match but one of them is a string.
 -	Use of datatypes is very loose in JavaScript and the comparative lack of data types requires a much lower level of specificity on the part of the person writing the code.
@@ -66,7 +66,7 @@ When running such code in JavaScript, x would print as “56”, converting the 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
-## **6.	Are there built-in complex data types that are commonly used in your language? (hint: they’d probably appear fairly early in the documentation if so) **
+## 6.	Are there built-in complex data types that are commonly used in your language? (hint: they’d probably appear fairly early in the documentation if so)
 -	In JavaScript the only non-primitive data type is Object.
 -	Arrays and Dates are special types of object.
 
