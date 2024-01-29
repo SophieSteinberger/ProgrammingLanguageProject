@@ -1,7 +1,7 @@
 # Lab 2 - Programming Language Project: JavaScript 
 
 For week 2 of this project the focus is data types and variables. While JavaScript does not use explicit declarations of data type when declaring variables, being aware of the type of the variable being declared is still important for how it can and will be used.
-A code example of the data types (the accompanying code to this assignment) can be found [here if you have node.js or other runtime environment](plpLab2.js) or [here if you will be running it through a browser](plpLab2.html).
+A code example of the data types (the accompanying code to this assignment) can be found [here if you have node.js or another runtime environment](plpLab2.js) or [here if you will be running it through a browser](plpLab2.html).
 
 ## 1.	What are the naming requirements for variables in your language? What about naming conventions? Are they enforced by the compiler/interpreter, or are they just standards in the community?
 ### The enforced naming requirements are:
