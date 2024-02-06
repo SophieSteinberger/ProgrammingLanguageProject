@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Enter some text or input in both textboxes and click submit</p>
+        <form id="tester">
+            <h1>Tester Form</h1>
+            <!--text inputs with id's to reference in the javascript code below-->
+            <input type="text" id="word1">
+            <br><br>
+            <input type="text" id="word2">
+            <br><br>
+            <!--Button with type "submit" - the event listener (line 22) is listening for this type of event from the <form> element-->
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="showStuff"></p>
+
+        <script>
+            let testerForm = document.getElementById("tester");
+            //adapted from https://www.freecodecamp.org/news/how-to-submit-a-form-with-javascript/
+            //when a "submit" action happens to the form the updateTxt function executes (note: no parentheses after the function name being passed as an argument when adding an event listener)
+            testerForm.addEventListener("submit", updateTxt);
+            
+            //re: the e parameter: https://medium.com/@wyou130/behind-the-scenes-javascript-event-listeners-and-e-71f0eb49be92#:~:text=Sometimes%20in%20the%20event%20handler,object%20in%20the%20event%20handler.
+            function updateTxt(e){
+                //the e is the event (submit), which is then used to prevent the page from reloading on submit (which is otherwise a default part of the event). resource citation: https://medium.com/@stheodorejohn/event-preventdefault-explained-controlling-default-browser-behavior-with-ease-b578d883aefe
+                e.preventDefault();
+                let x = document.getElementById("word1");
+                let y = document.getElementById("word2");
+
+                //use if else to validate if both form areas had data entered
+                //the value property is what holds/is changed by user input
+                if (x.value == "" || y.value == ""){
+                    alert("Make sure you have input values in both fields!");
+                } else {
+                    console.log("Working!");
+                    // perform operation with form input
+                    document.getElementById("showStuff").innerHTML = `The words you entered are ${x.value} and ${y.value}`;
+                    x.value = "";
+                    y.value = "";
+                }
+            }
+            
+
+        </script>
+    </body>
+</html>
