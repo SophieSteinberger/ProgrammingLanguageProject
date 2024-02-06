@@ -26,7 +26,7 @@ The operators that are used to act on Booleans are `&&` for _and_, `||` for _or_
 
 ## 3.	How does your programming language deal with the “dangling else” problem? 
 
-“In JavaScript an else clause is always associated with the closest preceding if statement that does not already have an else clause”. It is also noted that good practice is to use indentation clarify which ifs and elses go together [codeQL](https://codeql.github.com/codeql-query-help/javascript/js-misleading-indentation-of-dangling-else/).
+“In JavaScript an else clause is always associated with the closest preceding if statement that does not already have an else clause”. It is also noted that good practice is to use indentation clarify which ifs and elses go together \([codeQL](https://codeql.github.com/codeql-query-help/javascript/js-misleading-indentation-of-dangling-else/)\).
 
 ## 4.	If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of them evaluated?
 
@@ -58,14 +58,16 @@ The syntax for writing a switch statement is below:
     }
 ```
 
-[w3schools](https://www.w3schools.com/js/js_switch.asp)
+\([w3schools](https://www.w3schools.com/js/js_switch.asp)\)
 
 ## 5.	Lastly, and perhaps most importantly: it is time to start thinking about what your programming project is going to actually be. In future sessions we will be breaking down your project into individual milestones for weekly check-ins. But for now, just write a short paragraph about what it is you are planning to code in your language of choice. Remember that it should be a substantial program - a game, app, calendar, web site, etc. (I'll try to dig up some examples to share before next class)
 
 For the programming project I would like to use JavaScript to code a web app using Node.js, Express.js and probably React. I am thinking about an app that would help users to track what food items they have and in what quantities (as well as when they expire or were opened), query recipes (either input and stored by user and/or use APIs for other recipe databases) that can be made with what is on hand, or would only require acquiring a minimal number of ingredients, or uses up items that would expire soon, etc., and would update quantities the user has left after making a recipe (for example, inputting that I made a half batch of the Tollhouse chocolate chip cookie recipe, would update that I now have 1 cup less chocolate chips in my pantry, 8Tbs less butter, etc.).
 
 [codecademy - express.js](https://www.codecademy.com/article/what-is-express-js)
+
 [freecodecamp -  creating a react app with node backend](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/)
+
 [geeksforgeeks - node.js with react.js](https://www.geeksforgeeks.org/how-to-connect-node-js-with-react-js/)
 
 
@@ -77,5 +79,6 @@ In this week's Structure and Organization of Programming Languages course conten
 
 [freecodecamp - how to submit a form](https://www.freecodecamp.org/news/how-to-submit-a-form-with-javascript/)
 [medium - using preventDefault()](https://medium.com/@stheodorejohn/event-preventdefault-explained-controlling-default-browser-behavior-with-ease-b578d883aefe)
+
 [mdn - sending forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript)
 
