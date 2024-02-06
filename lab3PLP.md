@@ -19,7 +19,7 @@ if (condition){
 }
 ```
 
-The operators that are used to act on Booleans are `&&` for AND, `||` for OR, and `!` for NOT
+The operators that are used to act on Booleans are `&&` for _and_, `||` for _or_, and `!` for _not_
 
 
 *Note: the logical operators and syntax for if/else if/else are the same in JavaScript and Java (though “java” being in both names does not imply connection).
