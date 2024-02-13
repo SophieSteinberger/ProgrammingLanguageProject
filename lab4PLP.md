@@ -2,7 +2,8 @@
 This assignment addresses information regarding loops and functions in JavaScript. The code that accompanies this assignment (examples demonstrating the material covered below) can be found [here](/lab4PLP.js).
 
 ## 1. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other?
-    JavaScript contains multiple types of loops.
+
+JavaScript contains multiple types of loops.
 
 ### for loop
 The `for` loop executes a block of code a number of times.
