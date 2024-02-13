@@ -117,29 +117,6 @@ functionName();
 ```
 If a function has parameters they are comma-separated and placed inside the parentheses. If a function has a return value that will be used the function invocation should be assigned to a variable.
 
-### Function Expressions
-In addition to function declarations JavaScript also has function expressions, in which the `function` keyword is used to define a function within an expression. Function expressions can have names or the can be **anonymous functions** (functions without names). Function expressions can be invoked immediately as they are defined (self-invoking) or can be called using a variable they are assigned to. An anonymous function follows the same syntax as a named function definition except the name is omitted (and thus it cannot be called again unless assigned to a variable because there would be no identifier by which to reference it).
-Syntax of an anonymous (unnamed) function expression:
-```
-const variableName = function () {
-    //code to execute
-};
-```
-The above function can then be invoked using the variable it is assigned to (like a named function, except the variable name takes the place of a function name):
-```
-variableName();
-```
-While the syntax of a function expression is very similar to a function declaration, function expressions end with a semicolon.
-
-Anonymous functions can also be self-invoking and not assigned to a variable, which means that the function is executed as soon as it is defined instead of being executed in response to a separate invocation/call. A self-invoking function is written by surrounding the the function definition in parentheses and then following the parentheses-enclosed-definition with another set of parentheses and a semicolon:
-```
-(function (){
-    //code to execute
-})();
-```
-Anonymous functions are often used as callback functions, meaning as a function passed to another function as an argument.
-
-When a function expression contains a named function, the name of the named function expression is local (scoped) only to the function's body, meaning it cannot be called using its name outside of itself.
 
 ## 3. Are there any rules about where the function has to be placed in your code file so that it can run?
 In JavaScript functions must be in scope to be called. Global functions can be called from anywhere in the code, while functions that are within other functions can only be called within their parent function.
